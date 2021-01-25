@@ -1,0 +1,9 @@
+language: java
+jdk:
+  - openjdk8
+script: mvn clean verify
+deploy:
+  provider: heroku
+  api_key:
+    secure: SATHheZ/YxlvL3zuCuJpIwig6JJuNQgzdgLitmsDmkGQ7uRnhnKgpsqdL5H3khkdF7FI+MzIOHhELd66Pv7p3FoFIXPaQnrbzyq4UoT9JF8yq3HrYumYLxIBDsjdNEaH6howtr2728LwgR4NVWxmNx/RJyjx2DpNe5DrOAgCCpgoTby+Am2xIS/Xh+/yArU6N9ITYf2XglXODauakf1aoJC50fOcyYcdA/5wubt5MQvHRb8gVGIGDnmfzewOAqBfo7xGgVxEBhB42/MnXWlNEbuIkFfXOIEUbCA4gIVVxSwDG2q7YfhGOh47tRZsZSbrEUp9freurHnb1Ff/bI+jZ6DHL93jwcG7D0iPSxq0wrzOtbR0ZImwROUNOHNGgGir/ee8SwLX4iT13qa8fRhhGUbm5Kyt75vCRSzBZ84Rgg+UokhBgdA8G7hwGQ3tbvHg+YO8XvNgqQ3ZgDb48OHVHIsg4FBIyfszEq2QKXZHRUXppwjFLmYUdi2W66RXcTsO+AzmJBp+nMfocuxvZGSiEQAkw7CKSFmp3JliYGj0Mw6O3VCf6rqMXA0RjO87FXabvCONCnLQ3pWChr37W+JsZ1degRyC+sMeTF+LzrzO4WIABgZPjgL0P9ALEb2FhK1vbZN3xWjlQeJwdX2H40Vaao9c5/e/N110XVneM1/8cbQ=
+  app: chand-ding-sei-cw1
